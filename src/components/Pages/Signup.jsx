@@ -33,7 +33,7 @@ const Signup = () => {
             placeholder="Confirm password"
             icon="lock_clock"
           ></TextInput>
-          <Checkbox text=" I agree to the Terms & Conditions"></Checkbox>
+          <Checkbox text="  I agree to the Terms & Conditions"></Checkbox>
           <Button>
             <span>Submit now</span>
           </Button>
