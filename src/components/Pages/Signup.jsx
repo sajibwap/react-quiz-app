@@ -5,13 +5,14 @@ import classes from "../../styles/Signup.module.css";
 import TextInput from "../TextInput";
 import Checkbox from "../Checkbox";
 import Button from "../Button";
+import signupImg from "../../assets/images/signup.svg";
 
 const Signup = () => {
   return (
     <>
       <h1>Create an account</h1>
       <div className="column">
-        <Illustration />
+        <Illustration img={signupImg} />
         <Form className={classes.signup}>
           <TextInput
             type="text"
